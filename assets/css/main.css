@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body, html {
+    height: 100%;
+    background-image: url("https://cdn.discordapp.com/attachments/1063147089074335837/1084499184276754573/background.jpg");
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+i, a {
+   color: black;
+}
+
+.image {
+    width: 250px;
+    height: auto;
+    border-radius: 100px;
+    animation: logo 2s infinite;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+@keyframes logo {
+    50% {
+        scale: 0.7;
+    }
+    100% {
+        scale: 1;
+    }
+}
